@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400;1,700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: url(../images/miskas2.jpg);
+}
+
+.top {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.top li {
+    list-style-type: none;
+}
+.top ul{
+    margin: 0;
+    padding: 0;
+}
+
+.top a {
+    float: right;
+    color: #ffffff;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+.top a:hover {
+    color: #888888;
+}
+
+.Info .Paragraph{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    width: 35%;
+    left: 9.8%;
+    top: 30%;
+}
+.Savybes .Paragraph{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    width: 35%;
+    left: 40.8%;
+    top: 150%;
+}
+.Lavinimas .Paragraph{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    width: 35%;
+    left: 20.8%;
+    top: 255%;
+}
+.Patirtis .Paragraph{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    width: 35%;
+    left: 35.8%;
+    top: 360%;
+}
+
+.Kontaktai  li {
+    list-style-type: none;
+}
+.Kontaktai  ul{
+    margin: 0;
+    padding: 0;
+}
+.Kontaktai{
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    position: absolute;
+    top: 430%;
+    width: 100%;
+    text-align: center;
+}
+.Kontaktai a {
+    color: #ffffff;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
