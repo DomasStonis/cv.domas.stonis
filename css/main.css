@@ -71,17 +71,54 @@ body{
     margin: 0;
     padding: 0;
 }
+.Kontaktai  p{
+    padding-top: 1px;
+    padding-bottom: 15px;
+}
 .Kontaktai{
     background-color: rgb(0, 0, 0);
     overflow: hidden;
     position: absolute;
-    top: 430%;
+    top: 470%;
     width: 100%;
+    display: block;
     text-align: center;
 }
 .Kontaktai a {
     color: #ffffff;
-    padding: 16px;
     text-decoration: none;
     font-size: 20px;
+}
+
+@media (max-width: 915px){
+    .Info .Paragraph, .Savybes .Paragraph, .Lavinimas .Paragraph, .Patirtis .Paragraph{
+        font-size: 20px;
+        width: 50%;
+        text-align: center;
+        left: 25%;
+    }
+    .Info .Paragraph { top: 40%; }
+    .Savybes .Paragraph { top: 140%; }
+    .Lavinimas .Paragraph { top: 240%; }
+    .Patirtis .Paragraph{ top: 340%; }
+    .Kontaktai { top: 550%; }
+
+    .Kontaktai a, .top a{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 700px){
+    .top a{display: none;}
+    .top #logo {
+        display: inline;
+        float: none;
+        text-align: center;
+        font-size: 30px;
+     }
+    #kontaktai {display: inline;}
+    .Info .Paragraph { top: 40%; }
+    .Savybes .Paragraph { top: 140%; }
+    .Lavinimas .Paragraph { top: 240%; }
+    .Patirtis .Paragraph{ top: 280%; }
 }
